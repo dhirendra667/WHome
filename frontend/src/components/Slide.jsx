@@ -8,8 +8,8 @@ const Slide = () => {
       }}
     >
       <h1 className="text-white text-center text-[40px] p-10">
-        Welcome Home! Anywhere you roam <br /> Stay in the moment. Make your
-        memories
+        The journey is yours to take, the welcome is ours to make. <br />
+        Your journey begins here. Wherever life takes you, <br /> find your home with Wanderer’s Home.
       </h1>
     </div>
   );

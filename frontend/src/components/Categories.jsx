@@ -9,9 +9,9 @@ const Categories = () => {
       </h1>
 
       <p className="max-w-[700px] text-[20px]">
-        Explore our wide range of vacation rentals that cater to all types of
-        travelers. Immerse yourself in the local culture, enjoy the comforts of
-        home, and create unforgettable memories in your dream destination.
+        Discover our diverse collection of vacation rentals designed for
+        every kind of traveler. Immerse yourself in local culture, enjoy
+        the comforts of home, and create unforgettable memories in your dream destinations.
       </p>
 
       <div className="flex flex-wrap justify-center gap-[20px] py-[50px]">
