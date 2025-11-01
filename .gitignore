@@ -1,0 +1,14 @@
+# .gitignore (Located in the root 'whome' directory)
+
+# Dependencies (node_modules)
+# Exclude the node_modules directory in both backend and frontend
+backend/node_modules/
+frontend/node_modules/
+
+# Environment Variables (.env)
+# Exclude the .env files in both backend and frontend
+backend/.env
+frontend/.env
+
+frontend/.gitignore
+backend/.gitignore

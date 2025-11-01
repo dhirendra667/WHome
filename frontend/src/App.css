@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer components {
+  .reusable-listing-container {
+    @apply px-6 md:px-16 mt-10;
+  }
+
+  .reusable-listing-title {
+    @apply text-3xl font-semibold text-blue-600 mb-10 capitalize;
+  }
+
+  .reusable-listing-grid {
+    @apply flex flex-wrap justify-center gap-6 pb-28;
+  }
+}
