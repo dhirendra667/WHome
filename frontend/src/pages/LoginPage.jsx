@@ -27,7 +27,7 @@ const LoginPage = () => {
 
   return (
     <div className="w-screen h-screen flex flex-col justify-center items-center bg-[url('/assets/login.jpg')] bg-cover bg-center">
-      <div className="flex flex-col gap-4 w-[40%] p-10 bg-black/80 rounded-2xl text-white md:w-[60%] sm:w-[80%]">
+      <div className="flex flex-col gap-4 max-w-sm w-full p-10 bg-black/80 rounded-2xl text-white md:max-w-md">
         <form className="flex flex-col items-center gap-4" onSubmit={handleSubmit}>
           <input
             type="email"

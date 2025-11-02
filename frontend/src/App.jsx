@@ -1,11 +1,16 @@
 // this is  App.jsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+//leaflet for Map
+// import 'leaflet/dist/leaflet.css';
+
 import "./App.css";
 
 //new css file 
 import 'react-date-range/dist/styles.css'; // main style file
 import 'react-date-range/dist/theme/default.css'; // theme css file
+
+
 
 
 import HomePage from "./pages/HomePage";

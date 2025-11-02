@@ -82,15 +82,6 @@ function ListingDetails() {
             {/* Policies */}
             <PoliciesSection listing={listing} />
 
-            {/* <hr className="my-6" /> */}
-
-            {/* Reviews placeholder */}
-            {/* <ReviewsSection listing={listing} /> */}
-            {/* <section className="mb-10">
-              <h2 className="text-2xl font-semibold mb-3">Reviews • ⭐ {listing?.avgRating || '4.8'}</h2>
-              <div className="text-gray-700">Overall rating breakdown and individual reviews will go here.</div>
-            </section> */}
-
           </div>
 
           {/* RIGHT COLUMN - Sticky booking widget */}
@@ -104,12 +95,10 @@ function ListingDetails() {
             totalPrice={totalPrice}
             handleSubmit={handleSubmit}
           />
-
         </div>
       </div>
         <div>
           <hr className="my-6 ml-[80px] mr-[80px]" />
-
           {/* REVIEWS SECTION */}
           <ReviewsSection listing={listing} /> 
         </div>

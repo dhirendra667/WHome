@@ -1,6 +1,10 @@
 // components/ListingDetails/BookingWidget.jsx
 import { DateRange } from "react-date-range";
 
+
+// Import the new map component
+import GlobalMap from "../Map/GlobalMap";
+
 export default function BookingWidget({
   listing,
   dateRange,
@@ -67,13 +71,18 @@ export default function BookingWidget({
           <div className="mt-3 text-xs text-gray-500">You won't be charged yet</div>
         </div>
 
-        {/* Location Map Placeholder */}
+        {/* Location Map Section */}
         <div className="bg-white border rounded-xl shadow p-4">
-          <div className="text-sm font-semibold mb-2">Location</div>
-          <div className="h-40 rounded overflow-hidden border">
-            Map widget (add map later)
+          <div className="text-sm font-semibold mb-2">
+            Location: {listing.streetAddress}, {listing.city}, {listing.province}, {listing.country}
+          </div>
+
+          {/* Map Container (always has real pixel height) */}
+          <div className="relative h-96 w-full rounded-xl overflow-hidden shadow-lg border border-gray-200">
+            <GlobalMap listing={listing} mapHeight="384px" />
           </div>
         </div>
+
       </div>
     </aside>
   );

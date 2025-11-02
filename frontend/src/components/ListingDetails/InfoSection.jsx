@@ -73,7 +73,7 @@ export default function InfoSection({ listing, host, dayCount, user }) { // Adde
       {/* END OF FLEX CONTAINER  */}
 
       <hr className="my-6" />
-      <h2 className="text-xl font-semibold text-rose-500 mb-5">{listing.highlight}</h2>
+      <h2 className="text-xl font-semibold text-blue-800 mb-5">{listing.highlight}</h2>
       <p className="text-gray-700 max-w-3xl">
         {showFullDesc ? listing.highlightDesc : `${String(listing.highlightDesc || '').slice(0, 300)}`}
         {listing.highlightDesc && listing.highlightDesc.length > 300 && (

@@ -102,7 +102,7 @@ const RegisterPage = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-purple-100 font-inter">
-      <div className="flex w-[90%] md:w-[800px] bg-white rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:scale-[1.01]">
+      <div className="flex w-[90%] md:w-[800px] bg-white rounded-2xl shadow-xl overflow-hidden">
         {/* Left side form */}
         <div className="flex-1 p-8">
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">

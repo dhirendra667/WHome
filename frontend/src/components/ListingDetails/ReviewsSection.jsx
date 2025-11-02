@@ -6,7 +6,7 @@ export default function ReviewsSection({ listing = {} }) {
   const reviewCount = listing.reviewCount || 0;
 
   return (
-    <section className="mb-10 m-[80px]">
+    <section className="mb-10 ml-[80px] mr-[80px]">
       <h2 className="text-2xl font-semibold mb-3">
         Reviews • ⭐ {avgRating} ({reviewCount} reviews)
       </h2>
